@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  /* height: 100vh; */
+  /* background: #242428;
+  color: white; */
+  background-color: rgb(239, 239, 239);
+  font-family: "PlusJakarta";
+}
+
+@font-face {
+  font-family: "PlusJakarta";
+  /* Font name that you will use in your styles */
+  src: url("src/assets/fonts/PlusJakartaSans-Regular.ttf") format("woff");
+  /* Path to your font file */
+  font-weight: normal;
+  font-style: normal;
+}

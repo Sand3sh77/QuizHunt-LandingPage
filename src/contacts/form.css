@@ -1,0 +1,22 @@
+.form_main_container {
+    background-color: white;
+    /* height: 100vh; */
+    padding-top: 2rem;
+
+}
+
+.form-container {}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    padding: 0.3rem 1rem;
+    border-radius: 8px;
+    border: 2px solid #8e78fc;
+    transition: all 0.2s ease-in-out;
+}
+
+.form-input:active {}

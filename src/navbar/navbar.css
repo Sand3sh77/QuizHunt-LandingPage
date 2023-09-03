@@ -1,0 +1,64 @@
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+.nav_progress_container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+.progressbar {
+  background-color: #8e78fc;
+  height: 0.6rem;
+  translate: -100%;
+}
+.nav_fixed {
+  position: fixed;
+  background-color: rgb(241, 235, 235);
+  animation: fadeDown 0.35s ease-in;
+  box-shadow: 1px 1px 100px rgba(43, 42, 42, 0.5);
+}
+@keyframes fadeDown {
+  0% {
+    transform: translate3d(0, -20%, 0);
+  }
+  100% {
+    transform: translateZ(0);
+  }
+}
+.img {
+  height: 5rem;
+  object-fit: fill;
+}
+
+/* LOGIN AND SIGNUP FORM */
+.form_top_a {
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  padding: 1px 6px;
+}
+
+.icon_align {
+  position: relative;
+}
+
+.user_icon {
+  position: absolute;
+  top: 38px;
+  right: 10px;
+}
+
+/* .ls_form_cont {
+} */
+
+.excpt {
+  color: black;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
